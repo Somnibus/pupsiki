@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+nav{
+    padding: 30px;
+    background-image: url(background\ image.jpg);
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .button, .navigation-item{
+        color: #e62e6a;
+        background-color: #0d1e38;
+        font-size: 28px;
+        border: 2px solid #e62e6a;
+        border-radius: 7px;
+        padding: 5px;
+        
+    }
+    .button{
+        padding: 5px 10px;
+    }
+    .navigation-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:15px;
+      
+    }
+    a{
+        text-decoration: none;
+        color: #e62e6a;
+        padding: 7px; 
+    }
+    hr{
+       border: 5px solid #e62e6a;
+    }
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(230, 176, 219);
+    border: 3px solid #e62e6a;
+    border-radius: 8px;
+}
+label{
+    color: #e62e6a;
+    font-size: 28px;
+}
+input{
+    outline: none;
+    padding: 7px;
+   border: 3px solid #e62e6a ;
+   border-radius: 5px;
+   width: 300px;
+}
+
+form{
+padding-bottom: 5px;
+margin-bottom: 10px;
+
+}
+.forms{
+    display: grid;
+    justify-content: flex-start;
+    gap: 5px;
+  
+}
+.label{
+    margin-right: 15px;
+}
+.label-1{
+    margin-right: 66px;
+}
+.label-2{
+    margin-right: 33px;
+}
+.label-3{
+    margin-right: 90px;
+}
+.label-4{
+    margin-right: 82px;
+}
+.passage{
+    background-color: rgb(144, 202, 244);
+   
+    border: 3px solid rgb(18, 69, 209);
+    border-radius: 7px;
+        width: 780px;
+  padding: 15px;
+ 
+}
+.passage{
+margin: 0 auto;
+margin-top: 15px;
+
+}
